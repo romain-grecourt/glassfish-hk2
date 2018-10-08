@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.glassfish.hk2</groupId>
         <artifactId>maven-plugins</artifactId>
-        <version>2.5.0-b63-SNAPSHOT</version>
+        <version>2.5.0-b63</version>
     </parent>
     <artifactId>hk2-inhabitant-generator</artifactId>
     <packaging>maven-plugin</packaging>
@@ -85,7 +85,7 @@
                  <artifactId>maven-jar-plugin</artifactId>
                  <executions>
                      <execution>
-                         <id>>gendir-package</id>
+                         <id>&gt;gendir-package</id>
                          <goals>
                              <goal>test-jar</goal>
                          </goals>
